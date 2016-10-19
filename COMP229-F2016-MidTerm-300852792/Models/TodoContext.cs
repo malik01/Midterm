@@ -5,10 +5,10 @@ namespace COMP229_F2016_MidTerm_300852792.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class TodoContext : DbContext
+    public partial class ToDocontext : DbContext
     {
-        public TodoContext()
-            : base("name=TodoConnection")
+        public ToDocontext()
+            : base("name=ToDoconnection")
         {
         }
 
